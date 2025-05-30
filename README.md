@@ -1,21 +1,18 @@
-# Agentic AI Mastery App
-
-This repository contains the full-stack Agentic AI Mastery application, guiding users through structured learning modules, interactive code exercises, and AI-driven suggestions.
-
-## Repository Structure
-
-```
 agentic-ai-app/
 ├── backend/
 │   ├── app/
 │   │   ├── config.py
 │   │   ├── utils.py
-│   │   ├── routers/
-│   │   │   ├── auth.py
-│   │   │   ├── cursor.py
-│   │   │   ├── dependencies.py
-│   │   │   └── protected.py
-│   │   └── main.py
+│   │   ├── models.py
+│   │   ├── main.py
+│   │   └── routers/
+│   │       ├── auth.py
+│   │       ├── cursor.py
+│   │       ├── dependencies.py
+│   │       ├── protected.py
+│   │       └── progress.py
+│   ├── data/
+│   │   └── modules.json
 │   ├── requirements.txt
 │   └── .env.example
 ├── frontend/
@@ -26,6 +23,7 @@ agentic-ai-app/
 │   │   │   ├── ModuleNav.jsx
 │   │   │   ├── ContentRenderer.jsx
 │   │   │   ├── CodeEditor.jsx
+│   │   │   ├── Quiz.jsx
 │   │   │   └── PrivateRoute.jsx
 │   │   ├── contexts/
 │   │   │   └── AuthContext.jsx
@@ -39,6 +37,7 @@ agentic-ai-app/
 │   └── .gitignore
 ├── README.md
 └── .gitignore
+
 ```
 
 ## Prerequisites
